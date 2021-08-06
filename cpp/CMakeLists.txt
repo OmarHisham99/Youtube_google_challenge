@@ -17,6 +17,7 @@ include(GoogleTest)
 
 if(MSVC)
   add_compile_options(/Wall)
+
 else()
   add_compile_options(
       -Wall

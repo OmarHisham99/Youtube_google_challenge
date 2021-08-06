@@ -24,4 +24,6 @@ class Video {
 
   // Returns a readonly collection of the tags of the video.
   const std::vector<std::string>& getTags() const;
+
+  const std::string ConvertTagsToString()const;
 };

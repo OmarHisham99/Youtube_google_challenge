@@ -5,6 +5,7 @@
 #include <unordered_map>
 #include <utility>
 #include <vector>
+#include <regex>
 
 #include "commandparser.h"
 #include "helper.h"

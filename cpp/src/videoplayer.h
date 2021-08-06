@@ -1,16 +1,18 @@
 #pragma once
 
 #include <string>
-
+#include <queue>
+#include <vector>
 #include "videolibrary.h"
-
+#include "videoplaylist.h"
 /**
  * A class used to represent a Video Player.
  */
 class VideoPlayer {
  private:
   VideoLibrary mVideoLibrary;
-
+  std::queue<std::string> playingVideos; 
+  std::vector<std::string> pausedVideos;
  public:
   VideoPlayer() = default;
 

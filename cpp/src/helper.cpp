@@ -23,3 +23,12 @@ std::vector<std::string> splitlines(std::string output) {
   }
   return commandOutput;
 }
+
+//change all the string to lower case.
+std::string toLower(std::string s) {
+     std::string lowerstring = ""; 
+     for (const auto& ch : s){
+          lowerstring += tolower(ch); 
+     }
+     return lowerstring; 
+}
